@@ -1,0 +1,25 @@
+          ┌────────────────────┐
+          │   I²C Master Bus   │
+          │ (External MCU/Host)│
+          └─────────┬──────────┘
+                    │ SDA/SCL
+                    │
+          ┌─────────▼──────────┐
+          │   I²C Slave Module │
+          │  (FPGA Front-end)  │
+          └─────────┬──────────┘
+                    │   
+          ┌─────────▼───────────────┐
+          │ Address Translator      │
+          │ (Mapping A_old → A_new) │
+          └─────────┬───────────────┘
+                    │
+          ┌─────────▼──────────┐
+          │   I²C Master Module│
+          │   (FPGA Back-end)  │
+          └─────────┬──────────┘
+                    │ SDA/SCL
+          ┌─────────▼──────────┐
+          │   I²C Slave Device │
+          │  (External Device) │
+          └────────────────────┘
