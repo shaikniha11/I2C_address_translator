@@ -12,4 +12,10 @@ Features:
 - FSM-based logic design with shift registers and counters.
 - Verified with simulation and waveform output.
 
-Directory Structure
+Tools Used:
+- Icarus Verilog 
+- GTKWave for waveform analysis
+
+Author:
+SHAIK NIHASUHANI — FPGA and Digital Design Enthusiast
+
