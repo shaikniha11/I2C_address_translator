@@ -1,15 +1,11 @@
 FPGA_I2C_Address_Translator/
 │
 ├── src/
-│   └── i2c_translator.v          # Combined design + testbench
-│
-├── sim/
-│   ├── i2c_translator_fixed.vcd  # Simulation waveform file
-│   └── simulation_log.txt        # Console output like in your image
-│
+│   └── i2c_translator.v
+|
 ├── docs/
 │   ├── project_description.txt
-│   └── block_diagram.png         # (optional)
+│   └── block_diagram.png         
 │
 ├── README.md
-└── LICENSE                       # Optional (MIT recommended)
+
